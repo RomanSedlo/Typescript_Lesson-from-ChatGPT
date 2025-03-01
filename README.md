@@ -1,0 +1,2 @@
+cs: Tohle jsou moje vypracovaná cvičení které mi zadalo chatGPT. A jsou zároveň zkontrolovaná chatGPT, vlastně jsem si to kontroloval dokud jsem to neměl správně. 
+en: these are exerices from chatGPT, i've worked out. They should be correct becouse i let chatGPT to tell me when i was finally correct.
