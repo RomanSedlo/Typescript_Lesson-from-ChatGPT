@@ -1,5 +1,5 @@
-let temperature: number = -3
-let role: string = "admin"
+let temperature: number = 7
+let role: string = "user"
 
 if (temperature < 30) {
     if (temperature < 0) {
