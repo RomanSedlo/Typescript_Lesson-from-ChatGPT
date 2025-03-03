@@ -1,8 +1,8 @@
 let temperature: number = -3
 let role: string = "admin"
 
-if (temperature<30) {
-    if(temperature<0) {
+if (temperature < 30) {
+    if (temperature < 0) {
         console.log("Freezing")
     }
     else {
@@ -14,6 +14,12 @@ if (temperature<30) {
 
 switch (role) {
     case "admin":
-        // to do - finish
+        console.log("Full access")
+        break;
+    case "user":
+        console.log("Limited access")
+        break;
+    case "guest":
+        console.log("No access")
         break;
 }
