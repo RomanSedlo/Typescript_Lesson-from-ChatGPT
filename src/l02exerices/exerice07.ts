@@ -5,10 +5,14 @@ type Car = {
 };
 
 let bugina: Car = { brand: "Pablo", model: "teslos", year: 2022 }
-
 let dayOfWeek: number = 4
 let palivo: number = 5
 let i1: number = 100
+
+function sum(num1: number = 10,  num2: number = 20): string {
+    let i2 = num1 + num2;
+    return "" + i2 //chtělos abych vrátil výsledek jako string
+}
 
 for (let key in bugina) {
     let typedKey = key as keyof Car;
@@ -16,13 +20,14 @@ for (let key in bugina) {
 }
 
 do {
-    palivo += 2
+    palivo += 2;
     console.log("Aktuální palivo: ", palivo)
 } while (palivo < 15);
 
 while (i1 > 0) {
     i1 -= 1;
     if (i1 <= 20) {
+        console.log("Your speed is 20 km/h")
         break;
     }
 }
@@ -48,8 +53,5 @@ switch (dayOfWeek) {
         break;
     case 7:
         console.log("Neděle")
-        break;
-    default:
-        console.log("")
         break;
 }
